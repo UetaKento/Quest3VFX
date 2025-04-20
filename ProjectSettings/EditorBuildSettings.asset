@@ -20,9 +20,18 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/playCameraViewer.unity
     guid: c5ca6ecb472fcb643aa29f3d0915c3a3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/playShaderSample.unity
     guid: 810078645272b9f4aa9bceb0f4008641
+  - enabled: 0
+    path: Assets/Scenes/GrayScale.unity
+    guid: 0a825c92157cab94e9fbfe6b6866af85
+  - enabled: 0
+    path: Assets/Scenes/Distort.unity
+    guid: 8b6591a27396d434ca558d6e01424af3
+  - enabled: 1
+    path: Assets/Scenes/Distort_TimeLine.unity
+    guid: 42b6ec84e11a9f34fa18681b630959c4
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4743c07e2595f444b909bf102f6b8780, type: 2}

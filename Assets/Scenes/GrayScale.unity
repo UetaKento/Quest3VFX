@@ -1349,7 +1349,7 @@ GameObject:
   - component: {fileID: 1730727487}
   - component: {fileID: 1730727486}
   m_Layer: 0
-  m_Name: ShaderSurface
+  m_Name: watersurface
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1378,7 +1378,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4182cd9d42147f2459b691b185426fcc, type: 2}
+  - {fileID: 2100000, guid: 16e0d4f25439b3e448c883907ba469d1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1417,11 +1417,11 @@ Transform:
   m_GameObject: {fileID: 1730727484}
   serializedVersion: 2
   m_LocalRotation: {x: -0.7071068, y: 0, z: 0, w: 0.7071068}
-  m_LocalPosition: {x: 0, y: -0, z: 0}
-  m_LocalScale: {x: 256, y: 1, z: 192}
-  m_ConstrainProportionsScale: 0
+  m_LocalPosition: {x: 0, y: 0, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 0.5}
+  m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 6182922350956852732}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: -90, y: 0, z: 0}
 --- !u!1 &1848740387
 GameObject:
@@ -1607,10 +1607,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1848740388}
     m_Modifications:
-    - target: {fileID: 414867747461131084, guid: 486a1df2d533a4420a4a2aab8bfffe26, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 944798890620257398, guid: 486a1df2d533a4420a4a2aab8bfffe26, type: 3}
       propertyPath: m_Name
       value: ShaderSampleManagerPrefab
@@ -1709,10 +1705,7 @@ PrefabInstance:
       objectReference: {fileID: 1608124433}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: 2016761086104040343, guid: 486a1df2d533a4420a4a2aab8bfffe26, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1730727488}
+    m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 486a1df2d533a4420a4a2aab8bfffe26, type: 3}
 --- !u!1660057539 &9223372036854775807
@@ -1723,5 +1716,6 @@ SceneRoots:
   - {fileID: 478312663}
   - {fileID: 1568067563}
   - {fileID: 1223261592}
+  - {fileID: 1730727488}
   - {fileID: 1608124431}
   - {fileID: 105786365}

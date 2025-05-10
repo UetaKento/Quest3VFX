@@ -2,12 +2,15 @@ Shader "Unlit/GrayScale"
 {
     Properties
     {
-        _MainTex ("WebCam Texture", 2D) = "white" {}
+        [HideInInspector]_MainTex ("WebCam Texture", 2D) = "white" {}
     }
     SubShader
     {
         Tags { "RenderType"="Opaque" }
         LOD 100
+        ZWrite Off
+        ZTest Always
+
 
         Pass
         {

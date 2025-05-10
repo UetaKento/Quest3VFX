@@ -29,9 +29,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/Distort.unity
     guid: 8b6591a27396d434ca558d6e01424af3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Distort_TimeLine.unity
     guid: 42b6ec84e11a9f34fa18681b630959c4
+  - enabled: 1
+    path: Assets/Scenes/Distort_ZAlways.unity
+    guid: bc25dd0532955e7458e13425695ee5d0
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 4743c07e2595f444b909bf102f6b8780, type: 2}
